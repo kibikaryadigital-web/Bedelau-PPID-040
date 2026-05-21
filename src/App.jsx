@@ -91,7 +91,13 @@ function App() {
       newFeedback,
       ...feedbacks,
     ]);
-
+fetch("https://script.google.com/macros/s/AKfycbwokSjIE-mSC8OqnUh4GsdxAMxlAATVIel7J9Nk2PgpQnBOzqiaT2YLAEIpJklPmZeH/exec", {
+method: "POST",
+body: JSON.stringify(newFeedback),
+})
+.catch((err) =>
+console.error(err)
+)
     alert(
       "Terima kasih atas feedback Anda."
     );
