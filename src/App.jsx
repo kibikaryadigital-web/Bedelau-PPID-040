@@ -140,7 +140,7 @@ function App() {
     position: "absolute",
     top: 0,
     left: 0,
-    width: "170px",
+    width: "90px",
     opacity: 0.95,
     pointerEvents: "none",
   }}
@@ -154,7 +154,7 @@ function App() {
     position: "absolute",
     bottom: 0,
     right: 0,
-    width: "140px",
+    width: "90px",
     opacity: 0.95,
     pointerEvents: "none",
   }}
@@ -164,7 +164,7 @@ function App() {
             src={logoSapa}
             alt="Logo SAPA"
             style={{
-              width: "210px",
+              width: "190px",
               marginBottom: "16px",
             }}
           />
@@ -173,7 +173,7 @@ function App() {
             style={{
               margin: 0,
               color: COLORS.primary,
-              fontSize: "34px",
+              fontSize: "28px",
               fontWeight: "800",
             }}
           >
@@ -215,7 +215,7 @@ function App() {
           style={{
             background: COLORS.white,
             borderRadius: "28px",
-            padding: "24px",
+            padding: "22px 18px",
             border: `1px solid ${COLORS.border}`,
             marginBottom: "20px",
             boxShadow:
@@ -280,7 +280,7 @@ function App() {
                       : "#fff",
                   borderRadius:
                     "24px",
-                  padding: "20px 10px",
+                  padding: "16px 8px",
                   textAlign:
                     "center",
                   transition:
@@ -289,7 +289,7 @@ function App() {
               >
                 <div
                   style={{
-                    fontSize: "42px",
+                    fontSize: "34px",
                   }}
                 >
                   {item.emoji}
@@ -325,7 +325,7 @@ function App() {
               borderRadius: "20px",
               border:
                 "1px solid #d1d5db",
-              padding: "18px",
+              padding: "16px",
               fontSize: "16px",
               resize: "none",
               outline: "none",
@@ -342,7 +342,7 @@ function App() {
               width: "100%",
               border: "none",
               borderRadius: "20px",
-              padding: "18px",
+              padding: "16px",
               background:
                 "linear-gradient(135deg,#0f3d91,#2563eb)",
               color: "white",
