@@ -121,7 +121,7 @@ function App() {
           style={{
             background: COLORS.white,
             borderRadius: "32px",
-            padding: "28px",
+            padding: "18px 18px 22px",
             border: `1px solid ${COLORS.border}`,
             marginBottom: "20px",
             textAlign: "center",
@@ -140,8 +140,8 @@ function App() {
     position: "absolute",
     top: 0,
     left: 0,
-    width: "90px",
-    opacity: 0.95,
+    width: "75px",
+    opacity: 0.85,
     pointerEvents: "none",
   }}
 />
@@ -154,8 +154,8 @@ function App() {
     position: "absolute",
     bottom: 0,
     right: 0,
-    width: "90px",
-    opacity: 0.95,
+    width: "80px",
+    opacity: 0.85,
     pointerEvents: "none",
   }}
 />
@@ -164,8 +164,8 @@ function App() {
             src={logoSapa}
             alt="Logo SAPA"
             style={{
-              width: "190px",
-              marginBottom: "16px",
+              width: "135px",
+              marginBottom: "6px",
             }}
           />
 
@@ -173,8 +173,9 @@ function App() {
             style={{
               margin: 0,
               color: COLORS.primary,
-              fontSize: "28px",
+              fontSize: "24px",
               fontWeight: "800",
+              lineHeight: "1.1",
             }}
           >
             SAPA PPID 040
@@ -182,7 +183,7 @@ function App() {
 
           <div
             style={{
-              marginTop: "10px",
+              marginTop: "4px",
               color: COLORS.textSoft,
               lineHeight: "1.7",
               fontSize: "15px",
@@ -194,7 +195,7 @@ function App() {
 
           <div
             style={{
-              marginTop: "14px",
+              marginTop: "10px",
               display: "inline-block",
               background:
                 "linear-gradient(135deg,#d4af37,#f4d03f)",
@@ -297,7 +298,7 @@ function App() {
 
                 <div
                   style={{
-                    marginTop: "10px",
+                    marginTop: "4px",
                     fontWeight: "700",
                     color:
                       COLORS.primary,
@@ -377,7 +378,7 @@ function App() {
       position: "absolute",
       bottom: 0,
       right: 0,
-      width: "65px",
+      width: "40px",
       opacity: 0.9,
       pointerEvents: "none",
     }}
@@ -402,7 +403,7 @@ function App() {
       position: "absolute",
       bottom: 0,
       right: 0,
-      width: "65px",
+      width: "40px",
       opacity: 0.9,
       pointerEvents: "none",
     }}
@@ -427,7 +428,7 @@ function App() {
       position: "absolute",
       bottom: 0,
       right: 0,
-      width: "65px",
+      width: "40px",
       opacity: 0.9,
       pointerEvents: "none",
     }}
@@ -452,7 +453,7 @@ function App() {
       position: "absolute",
       bottom: 0,
       right: 0,
-      width: "65px",
+      width: "40px",
       opacity: 0.9,
       pointerEvents: "none",
     }}
