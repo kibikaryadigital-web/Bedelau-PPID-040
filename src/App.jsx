@@ -112,7 +112,7 @@ formData.append("comment", newFeedback.comment);
 formData.append("date", newFeedback.date);
 
 await fetch(
-  "https://script.google.com/macros/s/AKfycbwReuUXheddMnPsfvjNcKkbE6UvubyDFVfoZ1EbXx5LgEXmts6-KAx94X_ysvyBJXLx/exec",
+  "https://script.google.com/macros/s/AKfycbw8ZhLaBNSamyc-80T9vlP5Po7xAiTeZrQJ_TFgqWfwVewx0EF_etNQhDaebuQJUhCz/exec",
   {
     method: "POST",
     mode: "no-cors",
